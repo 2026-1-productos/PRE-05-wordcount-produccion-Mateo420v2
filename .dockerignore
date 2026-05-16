@@ -1,8 +1,9 @@
-# .dockerignore
+.git
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 .venv/
 .vscode/
-tests/
-README*
-setup.bat
-setup.sh
-wordcount.ipynb
+.pytest_cache/
+data/test_output/
